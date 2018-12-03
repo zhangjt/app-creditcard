@@ -2,13 +2,13 @@ let baseUrl = '';
 let accessUrl = '';
 
 let host = window.location.host;   
-if (host === 'wdjzt88.com' ||host ==='www.wdjzt88.com') {	
-	baseUrl ="https://prod.wdjzt88.com/";
-	accessUrl="http://www.wdjzt88.com/";
+if (host === 'aaa88.com' ||host ==='www.aaa88.com') {	
+	baseUrl ="https://prod.aaa88.com/";
+	accessUrl="http://www.aaa88.com/";
 			
 }else{
-    baseUrl = 'http://test.api.wdjzt88.com/';
-	accessUrl="http://test.wdjzt88.com/";
+    baseUrl = 'http://test.api.aaa88.com/';
+	accessUrl="http://test.aaa88.com/";
 }
 
 export {
