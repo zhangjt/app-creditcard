@@ -1,5 +1,5 @@
 <template>
-  {{this.$route.query}}
+  <!-- {{this.$route.query}} -->
     <div class="cc-info-container" :style="'min-height:'+ bg_min_height + 'px;padding-bottom: '+ bg_padding_bottom +'px;'"  v-title="cardInfo.name" ref="body">
 
         <img v-if="cardInfo.imgUrl" :src="cardInfo.imgUrl" class="card-img" onerror="javascript:this.src='/static/images/default_card.png';">
